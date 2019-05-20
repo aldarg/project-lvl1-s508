@@ -1,6 +1,6 @@
 {
   "name": "brain-games-aldarg",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "My 1st project on Hexlet",
   "main": "dist/index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aldarg/project-lvl1-s508.git"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
