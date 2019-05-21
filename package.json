@@ -1,6 +1,6 @@
 {
   "name": "brain-games-aldarg",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "My 1st project on Hexlet",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,8 @@
   "author": "Aleksandr Dargeev",
   "license": "ISC",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
