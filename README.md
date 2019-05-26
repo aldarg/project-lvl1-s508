@@ -8,8 +8,16 @@ This is my first project on Hexlet.
 
 ## Install guide
 
+Even Game
 [![asciicast](https://asciinema.org/a/pGSKMDkYHESFWHjXloRpjObpq.svg)](https://asciinema.org/a/pGSKMDkYHESFWHjXloRpjObpq)
+
+Calc Game
+[![asciicast](https://asciinema.org/a/pliC6WCA86elPyYt0cvCTioak.svg)](https://asciinema.org/a/pliC6WCA86elPyYt0cvCTioak)
 
 ## Gameplay demo
 
+Even Game
 [![asciicast](https://asciinema.org/a/BxSBFq7sgy24sQWHVNBtlDCkX.svg)](https://asciinema.org/a/BxSBFq7sgy24sQWHVNBtlDCkX)
+
+Calc Game
+[![asciicast](https://asciinema.org/a/wMhzOpeTeUQVHDl5pt4OYHoXW.svg)](https://asciinema.org/a/wMhzOpeTeUQVHDl5pt4OYHoXW)
