@@ -1,7 +1,8 @@
 {
   "name": "brain-games-aldarg",
-  "version": "1.5.0",
-  "description": "My 1st project on Hexlet",
+  "version": "1.5.1",
+  "description": "Some games for your brain.",
+  "keywords": ["brain games", "mind games", "logical games"],
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
