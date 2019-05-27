@@ -20,6 +20,9 @@ GCD Game
 Progression Game
 [![asciicast](https://asciinema.org/a/h4DH5ZrsD1f8toGEdpjZJbXTh.svg)](https://asciinema.org/a/h4DH5ZrsD1f8toGEdpjZJbXTh)
 
+Prime Game
+[![asciicast](https://asciinema.org/a/VXx2Sr09rRpiANAtY5NpiEl3L.svg)](https://asciinema.org/a/VXx2Sr09rRpiANAtY5NpiEl3L)
+
 ## Gameplay demo
 
 Even Game
@@ -33,3 +36,6 @@ GCD Game
 
 Progression Game
 [![asciicast](https://asciinema.org/a/OTUgh7d9rKZaerF0xFa1TMkK1.svg)](https://asciinema.org/a/OTUgh7d9rKZaerF0xFa1TMkK1)
+
+Prime Game
+[![asciicast](https://asciinema.org/a/j4oDfr37CGRr7e0bAu4ksjntz.svg)](https://asciinema.org/a/j4oDfr37CGRr7e0bAu4ksjntz)
