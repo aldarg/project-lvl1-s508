@@ -14,6 +14,9 @@ Even Game
 Calc Game
 [![asciicast](https://asciinema.org/a/pliC6WCA86elPyYt0cvCTioak.svg)](https://asciinema.org/a/pliC6WCA86elPyYt0cvCTioak)
 
+GCD Game
+[![asciicast](https://asciinema.org/a/6Gi6Kd6DgOLfN0NDaBxLreVy5.svg)](https://asciinema.org/a/6Gi6Kd6DgOLfN0NDaBxLreVy5)
+
 ## Gameplay demo
 
 Even Game
@@ -21,3 +24,6 @@ Even Game
 
 Calc Game
 [![asciicast](https://asciinema.org/a/wMhzOpeTeUQVHDl5pt4OYHoXW.svg)](https://asciinema.org/a/wMhzOpeTeUQVHDl5pt4OYHoXW)
+
+GCD Game
+[![asciicast](https://asciinema.org/a/Ae8qROXQQbshGudE9SW3Ab5ES.svg)](https://asciinema.org/a/Ae8qROXQQbshGudE9SW3Ab5ES)

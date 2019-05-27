@@ -1,5 +1,5 @@
 import startGame from '../..';
-import { getRandomInt } from '../../utils';
+import getRandomInt from '../../utils';
 
 const isEven = n => (n % 2 === 0);
 
@@ -15,11 +15,12 @@ const makeTest = () => {
 };
 
 const startEvenGame = () => {
-  console.log('Welcome to the Brain Games!');
-  console.log('Answer "yes" if number even otherwise answer "no"');
-  console.log('');
+  const game = {
+    rules: 'Answer "yes" if number even otherwise answer "no".',
+    makeTest,
+  };
 
-  startGame(makeTest);
+  startGame(game);
 };
 
 export default startEvenGame;

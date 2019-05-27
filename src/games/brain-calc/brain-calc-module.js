@@ -1,5 +1,5 @@
 import startGame from '../..';
-import { getRandomInt } from '../../utils';
+import getRandomInt from '../../utils';
 
 const makeTest = () => {
   const ops = [
@@ -33,11 +33,12 @@ const makeTest = () => {
 };
 
 const startCalcGame = () => {
-  console.log('Welcome to the Brain Games!');
-  console.log('What is the result of the expression?');
-  console.log('');
+  const game = {
+    rules: 'What is the result of the expression?',
+    makeTest,
+  };
 
-  startGame(makeTest);
+  startGame(game);
 };
 
 export default startCalcGame;
