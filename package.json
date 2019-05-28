@@ -1,9 +1,8 @@
 {
   "name": "brain-games-aldarg",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Some games for your brain.",
   "keywords": ["brain games", "mind games", "logical games"],
-  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -19,11 +18,19 @@
     "brain-progression": "dist/bin/brain-progression.js",
     "brain-prime": "dist/bin/brain-prime.js"
   },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.4"
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.2"
   },
   "files": [
     "dist"
@@ -31,8 +38,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aldarg/project-lvl1-s508.git"
-  },
-  "dependencies": {
-    "readline-sync": "^1.4.9"
   }
 }

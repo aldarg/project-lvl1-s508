@@ -1,5 +1,5 @@
-import startGame from '../..';
-import getRandomInt from '../../utils';
+import startGame from '..';
+import getRandomInt from '../utils';
 
 const findGCD = (a, b, start = b) => {
   if (a / b < 1) {
@@ -26,12 +26,8 @@ const makeTest = () => {
 };
 
 const startCalcGame = () => {
-  const game = {
-    rules: 'Find the greatest common divisor of given numbers.',
-    makeTest,
-  };
-
-  startGame(game);
+  const description = 'Find the greatest common divisor of given numbers.';
+  startGame(description, makeTest);
 };
 
 export default startCalcGame;
