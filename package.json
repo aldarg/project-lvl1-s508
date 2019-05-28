@@ -2,7 +2,11 @@
   "name": "brain-games-aldarg",
   "version": "1.5.2",
   "description": "Some games for your brain.",
-  "keywords": ["brain games", "mind games", "logical games"],
+  "keywords": [
+    "brain games",
+    "mind games",
+    "logical games"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
