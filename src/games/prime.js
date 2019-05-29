@@ -1,16 +1,25 @@
 import startGame from '..';
 import getRandomInt from '../utils';
 
-const primes = [
-  2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41,
-  43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,
-];
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const minNum = 1;
+const maxNum = 100;
 
-const isPrime = number => primes.find(prime => number === prime);
+const isPrime = (number) => {
+  if (number <= 2) {
+    return false;
+  }
+
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+};
 
 const makeTest = () => {
-  const minNum = 1;
-  const maxNum = 100;
   const question = getRandomInt(minNum, maxNum);
   const answer = isPrime(question) ? 'yes' : 'no';
 
@@ -18,7 +27,6 @@ const makeTest = () => {
 };
 
 const startPrimeGame = () => {
-  const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   startGame(description, makeTest);
 };
 

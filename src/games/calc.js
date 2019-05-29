@@ -1,39 +1,37 @@
 import startGame from '..';
 import getRandomInt from '../utils';
 
+const description = 'What is the result of the expression?';
+const minNum = 1;
+const maxNum = 20;
+
 const operations = [
   {
     sign: '+',
-    func: (a, b) => a + b,
+    calculate: (a, b) => a + b,
   },
   {
     sign: '-',
-    func: (a, b) => a - b,
+    calculate: (a, b) => a - b,
   },
   {
     sign: '*',
-    func: (a, b) => a * b,
+    calculate: (a, b) => a * b,
   },
 ];
 
 const makeTest = () => {
-  const min = 1;
-  const max = 20;
-
-  const a = getRandomInt(min, max);
-  const b = getRandomInt(min, max);
+  const a = getRandomInt(minNum, maxNum);
+  const b = getRandomInt(minNum, maxNum);
   const operationId = getRandomInt(0, operations.length - 1);
 
-  const test = {
-    question: `${a} ${operations[operationId].sign} ${b}`,
-    answer: `${operations[operationId].func(a, b)}`,
-  };
+  const question = `${a} ${operations[operationId].sign} ${b}`;
+  const answer = `${operations[operationId].calculate(a, b)}`;
 
-  return test;
+  return { question, answer };
 };
 
 const startCalcGame = () => {
-  const description = 'What is the result of the expression?';
   startGame(description, makeTest);
 };
 

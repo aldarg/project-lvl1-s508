@@ -8,20 +8,7 @@ This is my first project on Hexlet.
 
 ## Install guide
 
-Even Game
-[![asciicast](https://asciinema.org/a/pGSKMDkYHESFWHjXloRpjObpq.svg)](https://asciinema.org/a/pGSKMDkYHESFWHjXloRpjObpq)
-
-Calc Game
-[![asciicast](https://asciinema.org/a/pliC6WCA86elPyYt0cvCTioak.svg)](https://asciinema.org/a/pliC6WCA86elPyYt0cvCTioak)
-
-GCD Game
-[![asciicast](https://asciinema.org/a/6Gi6Kd6DgOLfN0NDaBxLreVy5.svg)](https://asciinema.org/a/6Gi6Kd6DgOLfN0NDaBxLreVy5)
-
-Progression Game
-[![asciicast](https://asciinema.org/a/h4DH5ZrsD1f8toGEdpjZJbXTh.svg)](https://asciinema.org/a/h4DH5ZrsD1f8toGEdpjZJbXTh)
-
-Prime Game
-[![asciicast](https://asciinema.org/a/VXx2Sr09rRpiANAtY5NpiEl3L.svg)](https://asciinema.org/a/VXx2Sr09rRpiANAtY5NpiEl3L)
+[![asciicast](https://asciinema.org/a/PwlT4FQAQOiGB1u8Ivj3iyVmW.svg)](https://asciinema.org/a/PwlT4FQAQOiGB1u8Ivj3iyVmW)
 
 ## Gameplay demo
 
