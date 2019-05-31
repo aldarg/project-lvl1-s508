@@ -3,13 +3,13 @@ import getRandomInt from '../utils';
 
 const description = 'What number is missing in the progression?';
 const progressionLength = 10;
-const minFirstNum = 1;
-const maxFirstNum = 5;
+const minFirst = 1;
+const maxFirst = 5;
 const minDiff = 2;
 const maxDiff = 4;
 
 const makeTest = () => {
-  const start = getRandomInt(minFirstNum, maxFirstNum);
+  const start = getRandomInt(minFirst, maxFirst);
   const difference = getRandomInt(minDiff, maxDiff);
 
   const progression = [];
@@ -25,8 +25,6 @@ const makeTest = () => {
   return { question, answer };
 };
 
-const startProgressionGame = () => {
+export default () => {
   startGame(description, makeTest);
 };
-
-export default startProgressionGame;

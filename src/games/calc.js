@@ -2,8 +2,8 @@ import startGame from '..';
 import getRandomInt from '../utils';
 
 const description = 'What is the result of the expression?';
-const minNum = 1;
-const maxNum = 20;
+const min = 1;
+const max = 20;
 
 const operations = [
   {
@@ -21,8 +21,8 @@ const operations = [
 ];
 
 const makeTest = () => {
-  const a = getRandomInt(minNum, maxNum);
-  const b = getRandomInt(minNum, maxNum);
+  const a = getRandomInt(min, max);
+  const b = getRandomInt(min, max);
   const operationId = getRandomInt(0, operations.length - 1);
 
   const question = `${a} ${operations[operationId].sign} ${b}`;
@@ -31,8 +31,6 @@ const makeTest = () => {
   return { question, answer };
 };
 
-const startCalcGame = () => {
+export default () => {
   startGame(description, makeTest);
 };
-
-export default startCalcGame;

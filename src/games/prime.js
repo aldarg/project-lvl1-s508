@@ -2,15 +2,17 @@ import startGame from '..';
 import getRandomInt from '../utils';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const minNum = 1;
-const maxNum = 100;
+const min = 1;
+const max = 100;
 
 const isPrime = (number) => {
-  if (number <= 2) {
+  if (number <= 2 || number % 2 === 0) {
     return false;
   }
 
-  for (let i = 2; i < number; i += 1) {
+  const maxDivisor = Math.sqrt(number);
+
+  for (let i = 3; i <= maxDivisor; i += 2) {
     if (number % i === 0) {
       return false;
     }
@@ -20,14 +22,12 @@ const isPrime = (number) => {
 };
 
 const makeTest = () => {
-  const question = getRandomInt(minNum, maxNum);
+  const question = getRandomInt(min, max);
   const answer = isPrime(question) ? 'yes' : 'no';
 
   return { question, answer };
 };
 
-const startPrimeGame = () => {
+export default () => {
   startGame(description, makeTest);
 };
-
-export default startPrimeGame;
