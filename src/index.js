@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const attemptsTotal = 3;
 
-const startGame = (description, makeTest) => {
+export default (description, makeTest) => {
   console.log('Welcome to the Brain Games!');
   console.log(description);
   console.log('');
@@ -29,5 +29,3 @@ const startGame = (description, makeTest) => {
 
   console.log(`Congratulations, ${name}!`);
 };
-
-export default startGame;
